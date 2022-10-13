@@ -1,0 +1,68 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Max",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "DOleo",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "maxdoleo@google.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteSport",
+        "label": "Favorite Sport",
+        "value": "",
+        "options": [{
+            "id": 1,
+            "label": "Baseball"
+        },
+        {
+            "id": 2,
+            "label": "Basket"
+        },
+        {
+            "id": 3,
+            "label": "Futbol"
+        }],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
